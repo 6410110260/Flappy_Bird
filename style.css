@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  font-family: 'Montserrat', sans-serif;
+  padding: 150px 0;
+  background: url(https://th.bing.com/th/id/R.f641b57abf99be43d71a4a2602db6e74?rik=k6ERtsTPemVeSA&riu=http%3a%2f%2fi.imgur.com%2fHwvK2FJ.png&ehk=8UyaH68sETTvIIhMi97bG961Tj2KxeS66p7J0EF8DwU%3d&risl=&pid=ImgRaw&r=0) center center no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  font-family: serif;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0 0 30px;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #fff;
+  color: #000;
+}
